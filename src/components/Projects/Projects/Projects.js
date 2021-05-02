@@ -7,9 +7,12 @@ import projectsData from '../../ProjectsData/ProjectsData.json';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+
+    // load projects data from projectsData.json file
     useEffect(() => {
         setProjects(projectsData);
     }, [])
+    
     return (
         <Container className="mt-5">
             <h2 className="text-center mb-4 pb-2" style={{borderBottom:'2px solid cyan', color:'cyan'}}>My Projects</h2>

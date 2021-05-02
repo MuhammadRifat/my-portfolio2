@@ -8,11 +8,15 @@ import BlogDetail from '../BlogDetail/BlogDetail';
 
 const BlogHome = () => {
     const [blogs, setBlogs] = useState([]);
+
+    // Load blogs data from blogData.json file
     useEffect( () => {
         setBlogs(blogData);
     }, [])
 
     const history = useHistory();
+
+    // For redirecting blog page
     const handleViewPosts = () => {
         history.push('/blog');
     }

@@ -5,6 +5,7 @@ import ApiKeys from '../../ApiKeys';
 
 const Contact = () => {
 
+    // For sending an email from client
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -20,6 +21,7 @@ const Contact = () => {
             <Row className="justify-content-md-center">
                 <Col md={6} className="p-4 rounded" style={{backgroundColor:'rgb(0, 60, 0)'}}>
                     <h2 className="text-center mb-3" style={{color:'cyan'}}>Get In Touch</h2>
+                    {/* contact form */}
                     <form onSubmit={handleSubmit} id='contactForm'>
                         <input type="text" name="name" className="form-control" placeholder="Enter your name"/><br/>
                         <input type="email" name="email" className="form-control" placeholder="Enter your email"/><br/>

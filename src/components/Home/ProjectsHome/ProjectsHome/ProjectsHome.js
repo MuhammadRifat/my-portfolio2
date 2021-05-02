@@ -8,11 +8,15 @@ import ProjectDetail from '../ProjectDetail/ProjectDetail';
 
 const ProjectsHome = () => {
     const [projects, setProjects] = useState([]);
+
+    // Load projects data from projectData.json file
     useEffect(() => {
         setProjects(projectsData);
     }, [])
 
     const history = useHistory();
+
+    // redirecting projects page
     const handleViewBtn = () => {
         history.push('/projects');
     }

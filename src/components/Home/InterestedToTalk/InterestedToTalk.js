@@ -4,6 +4,8 @@ import { useHistory } from 'react-router';
 
 const InterestedToTalk = () => {
     const history = useHistory();
+
+    // For redirecting contact page
     const handleTalkBtn = () => {
         history.push('/contact');
     }

@@ -20,6 +20,8 @@ const HeaderMain = () => {
                 </Col>
                 <Col md={{ span: 6, order: 'first' }}>
                     <p className="t-color">Hello, I'm</p>
+
+                    {/* used for typing animation of text */}
                     <Typical
                         steps={['M', 1000, 'Muhammad Rifat', 500]}
                         loop={1}

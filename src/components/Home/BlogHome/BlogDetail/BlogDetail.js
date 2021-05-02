@@ -9,6 +9,7 @@ const BlogDetail = ({blog}) => {
     return (
         <Col md={4}>
             <div className="bg-light border rounded mt-3 box">
+                {/* id zoomIn used for animation of image */}
                 <div className="column" id="zoomIn">
                     <figure>
                         <img src={imageUrl} alt="" className="img-fluid rounded" style={{ width: '100%', height: '250px' }} />
