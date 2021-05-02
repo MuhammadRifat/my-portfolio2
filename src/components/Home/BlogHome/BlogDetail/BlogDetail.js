@@ -8,7 +8,7 @@ const BlogDetail = ({blog}) => {
     const {name, imageUrl, description, publishingDate, blogUrl} = blog;
     return (
         <Col md={4}>
-            <div className="bg-light border rounded mt-3 box">
+            <div className="bg-light border rounded mt-4 box">
                 {/* id zoomIn used for animation of image */}
                 <div className="column" id="zoomIn">
                     <figure>
