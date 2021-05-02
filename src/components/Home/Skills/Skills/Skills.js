@@ -19,7 +19,7 @@ const Skills = () => {
             </Row>
             <Row className="mt-4">
                 <Col md={4}>
-                    <div className="bg-white p-2 mb-3 border rounded">
+                    <div className="bg-white p-2 mb-3 border rounded box">
                         <div className="text-center">
                             <FontAwesomeIcon icon={faLaptopCode} size="4x" />
                             <h3 className="mt-3">Frontend</h3>
@@ -36,7 +36,7 @@ const Skills = () => {
                     </div>
                 </Col>
                 <Col md={4}>
-                    <div className="bg-white p-2 mb-3 border rounded">
+                    <div className="bg-white p-2 mb-3 border rounded box">
                         <div className="text-center">
                             <FontAwesomeIcon icon={faServer} size="4x"  />
                             <h3 className="mt-3">Backend</h3>
@@ -53,7 +53,7 @@ const Skills = () => {
                     </div>
                 </Col>
                 <Col md={4}>
-                    <div className="bg-white p-2 mb-3 border rounded">
+                    <div className="bg-white p-2 mb-3 border rounded box">
                         <div className="text-center">
                             <FontAwesomeIcon icon={faAngleDoubleDown} size="4x" />
                             <h3 className="mt-3">Others</h3>
