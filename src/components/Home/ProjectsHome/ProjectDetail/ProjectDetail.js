@@ -8,7 +8,7 @@ import { faFacebook, faTwitter, faGithub, faLinkedinIn, faMedium } from '@fortaw
 const ProjectDetail = ({ project }) => {
     return (
         <Col lg={6}>
-            <div className="bg-white rounded mb-4">
+            <div className="rounded mb-4 text-white" style={{backgroundColor:'rgb(0, 65, 0)'}}>
                 <div className="border rounded frame">
                     <img src={project.imageUrl} alt="" className="border rounded" />
                     <div className="rounded border details">
@@ -23,8 +23,8 @@ const ProjectDetail = ({ project }) => {
                         }
                     </Row>
                     <div className="mt-2 d-flex">
-                        {project.codeUrl && <a href={project.codeUrl} target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>}
-                        <a href={project.projectUrl} target="_blank" className="ml-auto"><b>See project</b></a>
+                        {project.codeUrl && <a href={project.codeUrl} target="_blank" style={{color:'cyan'}}><FontAwesomeIcon icon={faGithub} size="2x" /></a>}
+                        <a href={project.projectUrl} target="_blank" className="ml-auto" style={{color:'cyan'}}><b>See project</b></a>
                     </div>
                 </div>
             </div>

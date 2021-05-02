@@ -17,7 +17,8 @@ const BlogHome = () => {
         history.push('/blog');
     }
     return (
-        <Container className="mt-5 pt-5">
+        <Container fluid className="mt-5 p-3" style={{backgroundColor:'rgb(0, 45, 0)'}}>
+        <Container>
             <h2 className="text-center mb-4" style={{color:'cyan'}}>Latest blog posts</h2>
             <Row>
                 {
@@ -27,6 +28,7 @@ const BlogHome = () => {
             <div className="text-center mb-2">
                 <button className="btn btn-outline-light mt-4" onClick={handleViewPosts}>View all posts</button>
             </div>
+        </Container>
         </Container>
     );
 };
