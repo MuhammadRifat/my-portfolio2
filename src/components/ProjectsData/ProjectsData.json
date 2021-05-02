@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "name": "Mr. Travel",
+      "description": "A single page travel management web app where users can easy to booking tours, providing easy payment options with stripe, and the admin panel can easily manage tours, user bookings, and make another admin. There is a system to sign up through Google or Facebook. Login and Signup options are included with firebase authentication and used private route for more security and protection. Users can search for any tour by name, tour type, and destination.",
+      "imageUrl": "https://i.ibb.co/qdnK7h7/mr-travel.png",
+      "codeUrl": "https://github.com/MuhammadRifat/Mr.-Travel-client",
+      "projectUrl": "https://mr-travel-simple.web.app/",
+      "technologies": [ "React", "React Bootstrap", "React Router", "Firebase", "NodeJS", "ExpressJS", "Stripe", "MongoDB", "Heroku"]
+    },
+    {
+      "id": 2,
+      "name": "Store 2 Door",
+      "description": "A single page online shopping web app where users can easy to buy products, search for any product by name, and the admin panel can easily manage products and user orders. Login and Signup options are included with firebase authentication and used private route for more security and protection. There is a system to sign up through Google or Facebook.",
+      "imageUrl": "https://i.ibb.co/wKq37qb/store-2-door.png",
+      "codeUrl": "https://github.com/MuhammadRifat/store-2-door-client",
+      "projectUrl": "https://store-2-door-simple.web.app/",
+      "technologies": [ "React", "React Bootstrap", "React Router", "Firebase", "NodeJS", "ExpressJS", "MongoDB", "Heroku"]
+    },
+    {
+      "id": 3,
+      "name": "Online Admission and Learning System",
+      "description": "A website to Help students to admit and learn in the times of the Covid-19 pandemic situation. There is a system for student and admin login. Also has a dashboard for students and admin. Students can admit any course with payment and can see the class routine, and notice board. Admin can manage courses, class routine, notice for students, and can see the overall number of students per course.",
+      "imageUrl": "https://i.ibb.co/wRFyPRG/online-learning.png",
+      "codeUrl": "",
+      "projectUrl": "https://rifatcsejkkniu.com/",
+      "technologies": [ "Bootstrap", "Javascript", "PHP", "SQL", "MySQL", "AJAX"]
+    },
+    {
+      "id": 4,
+      "name": "Messenger with React and NodeJS",
+      "description": "Real-time chat application. Can only be communicated with friends via text messages. Users can make friends and chat with them in real-time. Login and Signup options are included with firebase authentication and used private route for more security and protection. There is a system to sign up through Google or Facebook.",
+      "imageUrl": "https://i.ibb.co/y8yxgx6/messenger-react.png",
+      "codeUrl": "https://github.com/MuhammadRifat/messenger-client",
+      "projectUrl": "https://messenger-simple.web.app/login",
+      "technologies": [ "React", "React Bootstrap", "React Router", "Firebase", "NodeJS", "ExpressJS", "MongoDB", "Heroku"]
+    },
+    {
+      "id": 5,
+      "name": "City Ride Sharing",
+      "description": "A single page ride-sharing web app where users can easy to share rides with the chosen vehicles. Google maps have included on the destination page. When the user has chosen any vehicle, he/she can see available all vehicles at different prices of his/her going destination on date and time. Login and Signup options are included with firebase authentication and used private route. There is a system to sign up through Google or Facebook.",
+      "imageUrl": "https://i.ibb.co/kBX4BFq/city-ride-sharing.png",
+      "codeUrl": "https://github.com/MuhammadRifat/city-ride-sharing",
+      "projectUrl": "https://city-ride-sharing.web.app/",
+      "technologies": [ "React", "React Bootstrap", "React Router", "Firebase"]
+    },
+    {
+      "id": 6,
+      "name": "My Messenger with PHP",
+      "description": "Simple chat application. Can only be communicated with friends via text message. This application has a login page, signup page, friends page, add friends page, and a chatbox.",
+      "imageUrl": "https://i.ibb.co/K2srFRF/my-messenger.png",
+      "codeUrl": "",
+      "projectUrl": "https://www.rifatcsejkkniu.com/Messenger/login.php",
+      "technologies": [ "PHP", "MySQL", "Bootstrap", "HTML", "CSS"]
+    },
+    {
+      "id": 7,
+      "name": "Sports Teams",
+      "description": "A single page club football web app where shows all teams with name, sports type and logo in home page. User can see description to his/her selected team.",
+      "imageUrl": "https://i.ibb.co/MNYvPz8/sports-teams.png",
+      "codeUrl": "https://github.com/MuhammadRifat/sports-teams",
+      "projectUrl": "https://sad-knuth-29c760.netlify.app/",
+      "technologies": [ "React", "React Bootstrap", "React Router", "HTML", "CSS"]
+    },
+    {
+      "id": 8,
+      "name": "Player Selection Page",
+      "description": "A single page player selection web app.",
+      "imageUrl": "https://i.ibb.co/1zbPWcw/player-selection-page.png",
+      "codeUrl": "https://github.com/MuhammadRifat/player-selection-page",
+      "projectUrl": "https://dazzling-ritchie-f2c8ad.netlify.app/",
+      "technologies": [ "React", "React Bootstrap","HTML", "CSS"]
+    },
+    {
+      "id": 9,
+      "name": "Hungry Moster",
+      "description": "Meal searching website. Users can search meal and show all ingredients of it.",
+      "imageUrl": "https://i.ibb.co/C50mYhr/hungry-moster.png",
+      "codeUrl": "https://github.com/MuhammadRifat/Assignment5",
+      "projectUrl": "https://muhammadrifat.github.io/Assignment5/index.html",
+      "technologies": [ "Bootstrap", "Javascript", "HTML", "CSS"]
+    },
+    {
+      "id": 10,
+      "name": "Penguin Fashion",
+      "description": "A Fashion related static website.Simply designed to practice Bootstrap.",
+      "imageUrl": "https://i.ibb.co/J3gxyVf/penguin-fashion.png",
+      "codeUrl": "https://github.com/MuhammadRifat/Assignment2",
+      "projectUrl": "https://muhammadrifat.github.io/Assignment2/index.html",
+      "technologies": [ "Bootstrap", "HTML", "CSS"]
+    }
+  ]
