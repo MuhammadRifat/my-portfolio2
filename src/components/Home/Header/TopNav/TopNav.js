@@ -29,7 +29,7 @@ const TopNav = () => {
                     <a href="https://web.facebook.com/profile.php?id=100012091483742"><FontAwesomeIcon icon={faFacebook} className="ml-4 social" /></a>
                 </Nav>
                 <Nav className="ml-auto">
-                    <Link className="link" id="about" onClick={handleNavLink} to="/about">About me </Link>
+                    <Link className="link active" id="about" onClick={handleNavLink} to="/about">About me </Link>
                     <Link className="link" id="projects" onClick={handleNavLink} to="/projects">Projects </Link>
                     <Link className="link" id="blog" onClick={handleNavLink} to="/blog">Blog </Link>
                     <Link className="link" id="contact" onClick={handleNavLink} to="/contact">Contact </Link>
