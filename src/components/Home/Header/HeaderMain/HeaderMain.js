@@ -35,7 +35,7 @@ const HeaderMain = () => {
                     the best developer that I can be and to contribute to the technology industry all that I know and can do.
                     </p>
                     <button className="btn btn-outline-light mt-3" onClick={handleClick}>Contact me</button>
-                    <a className="btn btn-outline-light mt-3 ml-3" href="https://drive.google.com/uc?export=download&id=1cLFsjKVDiZdjD92VsfGPMaW-5V7WukaJ"><FontAwesomeIcon icon={faDownload} /> Download resume</a>
+                    <a className="btn btn-outline-light mt-3 ml-3" href="https://drive.google.com/uc?export=download&id=1MXJ-r1YErGcYmTYspCAt3cwtM7fRxeh2"><FontAwesomeIcon icon={faDownload} /> Download resume</a>
                 </Col>
             </Row>
         </>

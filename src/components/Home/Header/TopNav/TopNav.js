@@ -22,11 +22,11 @@ const TopNav = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <a href="https://github.com/MuhammadRifat"><FontAwesomeIcon icon={faGithub} className="ml-4 social" /></a>
-                    <a href="https://www.linkedin.com/in/muhammad-rifat-7bb833185/"><FontAwesomeIcon icon={faLinkedinIn} className="ml-4 social" /></a>
-                    <a href="https://medium.com/@hrifat450"><FontAwesomeIcon icon={faMedium} className="ml-4 social" /></a>
-                    <a href="https://twitter.com/Muhamma62094989"><FontAwesomeIcon icon={faTwitter} className="ml-4 social" /></a>
-                    <a href="https://web.facebook.com/profile.php?id=100012091483742"><FontAwesomeIcon icon={faFacebook} className="ml-4 social" /></a>
+                    <a href="https://github.com/MuhammadRifat" target="_blank"><FontAwesomeIcon icon={faGithub} className="ml-4 social" /></a>
+                    <a href="https://www.linkedin.com/in/muhammad-rifat-7bb833185/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} className="ml-4 social" /></a>
+                    <a href="https://hrifat450.medium.com/" target="_blank"><FontAwesomeIcon icon={faMedium} className="ml-4 social" /></a>
+                    <a href="https://twitter.com/Muhamma62094989" target="_blank"><FontAwesomeIcon icon={faTwitter} className="ml-4 social" /></a>
+                    <a href="https://web.facebook.com/profile.php?id=100012091483742" target="_blank"><FontAwesomeIcon icon={faFacebook} className="ml-4 social" /></a>
                 </Nav>
                 <Nav className="ml-auto">
                     <Link className="link" id="about" onClick={handleNavLink} to="/about">About me </Link>
