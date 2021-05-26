@@ -12,7 +12,7 @@ const Resume = () => {
                 <h2 style={{ color: 'cyan' }}>My Resume</h2>
                 </Col>
                 <Col className="text-right">
-                    <a className="btn btn-outline-light" href="https://drive.google.com/uc?export=download&id=1MXJ-r1YErGcYmTYspCAt3cwtM7fRxeh2"><FontAwesomeIcon icon={faDownload} /> Download resume</a>
+                    <a className="btn btn-outline-light" href="https://drive.google.com/uc?export=download&id=10kwb3yUSWT5EwEbTHq5JFWUzQHmf_v1C"><FontAwesomeIcon icon={faDownload} /> Download resume</a>
                 </Col>
             </Row>
 
