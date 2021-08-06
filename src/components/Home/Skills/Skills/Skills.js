@@ -29,7 +29,7 @@ const Skills = () => {
                                 &#10004; React<br/>
                                 &#10004; Javascript<br/>
                                 &#10004; ES6<br/>
-                                &#10004; Bootstrap<br/>
+                                &#10004; Bootstrap/Tailwind CSS<br/>
                                 &#10004; HTML5/CSS3/SASS<br/>
                             </p>
                         </div>
