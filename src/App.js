@@ -3,6 +3,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Achievement from "./components/Achievement/Achievement";
 import Blog from "./components/Blog/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Home/Footer/Footer";
@@ -18,7 +19,7 @@ function App() {
     <Router>
       <TopNav></TopNav>
         <Switch>
-          <Route path="/about">
+          <Route path="/home">
             <Home></Home>
           </Route>
           <Route path="/projects">
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog></Blog>
+          </Route>
+          <Route path="/achievement">
+            <Achievement></Achievement>
           </Route>
           <Route path="/resume">
             <Resume></Resume>

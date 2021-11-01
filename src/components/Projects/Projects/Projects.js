@@ -14,7 +14,7 @@ const Projects = () => {
     }, [])
     
     return (
-        <Container className="mt-5">
+        <Container className="mt-4">
             <h2 className="text-center mb-4 pb-2" style={{borderBottom:'2px solid cyan', color:'cyan'}}>My Projects</h2>
             <Row>
                 {

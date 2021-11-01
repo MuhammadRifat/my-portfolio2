@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import blogData from '../../BlogData/BlogData.json';
 import BlogDetail from '../../Home/BlogHome/BlogDetail/BlogDetail';
-import image from '../../../images/profile11.jpg';
+import image from '../../../images/profile.png';
 
 const Blog = () => {
     const [blogs, setBlogs] = useState([]);

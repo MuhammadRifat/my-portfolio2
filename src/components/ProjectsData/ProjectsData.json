@@ -36,6 +36,15 @@
       "technologies": [ "React", "Tailwind CSS", "React Router", "Firebase", "NodeJS", "ExpressJS", "MongoDB", "Heroku"]
     },
     {
+      "id": 6,
+      "name": "E-School-PHP",
+      "description": "A website to Help students to admit and learn in the times of the Covid-19 pandemic situation. There is a system for student and admin log in, sign up with google. Also has a dashboard for students and admin. Students can admit any course with payment and can continue class. Admin can manage courses, classes, students and payments.",
+      "imageUrl": "https://i.ibb.co/SNQq4zV/homepage-e-school.png",
+      "codeUrl": "https://github.com/MuhammadRifat/e-school-php",
+      "projectUrl": "#",
+      "technologies": [ "PHP", "Javascript", "MySQL",  "Bootstrap", "HTML", "CSS"]
+    },
+    {
       "id": 5,
       "name": "Mr. Food",
       "description": "This is a Food delivery mobile application where people can see and search for any food. Anyone can order food to give his/her name, email, mobile and address and see all ingredients of the selected food. Also, users can see google maps.",
@@ -43,15 +52,6 @@
       "codeUrl": "https://github.com/MuhammadRifat/Mr.-Food",
       "projectUrl": "https://drive.google.com/file/d/1FpUIjMBbhoTkjleo3-73GvD0_oxLC6ov/view?usp=sharing",
       "technologies": [ "React Native", "Expo", "React Router Native", "NodeJS", "ExpressJS", "MongoDB", "Heroku"]
-    },
-    {
-      "id": 6,
-      "name": "Online Admission and Learning System",
-      "description": "A website to Help students to admit and learn in the times of the Covid-19 pandemic situation. There is a system for student and admin log in, sign up and forget password. Also has a dashboard for students and admin. Students can admit any course with payment and can see the class routine, and notice board. Admin can manage courses, class routine, notice for students, and can see the overall number of students per course.",
-      "imageUrl": "https://i.ibb.co/wRFyPRG/online-learning.png",
-      "codeUrl": "",
-      "projectUrl": "https://rifatcsejkkniu.com/",
-      "technologies": [ "Bootstrap", "Javascript", "PHP", "SQL", "MySQL", "AJAX"]
     },
     {
       "id": 7,
@@ -90,15 +90,6 @@
       "technologies": [ "React", "React Bootstrap", "React Router", "Firebase"]
     },
     {
-      "id": 11,
-      "name": "My Messenger",
-      "description": "Simple chat application. Can only be communicated with friends via text message. This application has a login page, signup page, friends page, add friends page, and a chatbox.",
-      "imageUrl": "https://i.ibb.co/K2srFRF/my-messenger.png",
-      "codeUrl": "",
-      "projectUrl": "https://www.rifatcsejkkniu.com/Messenger/login.php",
-      "technologies": [ "PHP", "MySQL", "Bootstrap", "HTML", "CSS"]
-    },
-    {
       "id": 12,
       "name": "Sports Teams",
       "description": "A single page club football web app where shows all teams with name, sports type and logo in home page. User can see description to his/her selected team.",
@@ -133,5 +124,14 @@
       "codeUrl": "https://github.com/MuhammadRifat/Assignment2",
       "projectUrl": "https://muhammadrifat.github.io/Assignment2/index.html",
       "technologies": [ "Bootstrap", "HTML", "CSS"]
+    },
+    {
+      "id": 16,
+      "name": "Courier Express",
+      "description": "This is an online courier website. Through this website a consumer can exchange goods from one place to another by paying a certain amount of cost. Only frontend work has been done in it. This website is designed to be easily accessible to consumers. This website will be useful for commercial use if it has backend work. This website is responsive and designed by using only HTML and CSS.",
+      "imageUrl": "https://i.ibb.co/qYfdRsk/Capture.png",
+      "codeUrl": "https://github.com/MuhammadRifat/courier-express",
+      "projectUrl": "https://muhammadrifat.github.io/courier-express/HTML/index.html",
+      "technologies": [ "HTML", "CSS"]
     }
   ]

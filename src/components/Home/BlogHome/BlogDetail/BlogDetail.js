@@ -12,7 +12,7 @@ const BlogDetail = ({blog}) => {
                 {/* id zoomIn used for animation of image */}
                 <div className="column" id="zoomIn">
                     <figure>
-                        <img src={imageUrl} alt="" className="img-fluid rounded" style={{ width: '100%', height: '250px' }} />
+                        <img src={imageUrl} alt="" className="img-fluid rounded" />
                     </figure>
                 </div>
                 <div className="p-2">

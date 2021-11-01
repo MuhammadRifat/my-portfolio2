@@ -47,7 +47,7 @@ const Skills = () => {
                                 &#10004; ExpressJS<br/>
                                 &#10004; PHP<br/>
                                 &#10004; MongoDB<br/>
-                                &#10004; MySQL<br/>
+                                &#10004; MySQL/PostgreSQL<br/>
                             </p>
                         </div>
                     </div>

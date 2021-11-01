@@ -16,7 +16,7 @@ const HeaderMain = () => {
         <>
             <Row className="text-white mt-5 pt-4">
                 <Col md={{ span: 5, offset: 1, order: 'last' }} className="mb-4">
-                    <Image src={profileImage} alt="" fluid />
+                    <Image src={profileImage} alt="" fluid style={{width: '90%', height: '98%', marginLeft: '10px'}} />
                 </Col>
                 <Col md={{ span: 6, order: 'first' }}>
                     <p className="t-color">Hello, I'm</p>
@@ -28,7 +28,7 @@ const HeaderMain = () => {
                         wrapper="h2"
                     />
                     <ul type="square" className="d-flex mr-4">
-                        <li className="t-color">Full Stack Developer</li>
+                        <li className="t-color">React Developer | JavaScript Developer | Full Stack Developer</li>
                     </ul>
                     <p>I'm a full-stack developer with a vast array of knowledge in many different front-end and back-end
                     languages, responsive frameworks, databases, and best code practices. My objective is simply to be
